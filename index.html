@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+<h1>Employees</h1>
+<hr />
+
+<h4>All Employees</h4>
+<ul id="employee-list-all">
+
+</ul>
+
+<hr />
+<h4>Add Employee</h4>
+<form id="employee-form-new">
+    <input type="text" name="employee-name" id="employee-name" />
+    <input type="number" name="employee-pay" id="employee-pay" />
+    <select name="employee-role" id="employee-role">
+        <option value="Q/A">Q/A</option>
+        <option value="Dev">Dev</option>
+        <option value="DevOps">DevOps</option>
+    </select>
+
+    <button id="addEmployee">Add Employee</button>
+</form>
+
+<hr />
+
+<h4>Give Bonus</h4>
+
+<form id="employee-form-bonus">
+    <select name="employee-bonus" id="employee-bonus">
+        <option value="Mary Ann">Mary Ann</option>
+        <option value="Don Draper">Don Draper</option>
+        <option value="John Smith">John Smith</option>
+    </select>
+
+    <input type="number" name="employee-bonus-amt" id="employee-bonus-amt" />
+
+    <input type="submit" value="Give Bonus" />
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
